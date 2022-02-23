@@ -33,9 +33,9 @@ void loop() {
   if (arduboy.pressed(UP_BUTTON) && y >= 1)                       y = y - 1;
   if (arduboy.pressed(DOWN_BUTTON) && y < ySize - (HEIGHT / 8))   y = y + 1;
 
-  FX::seekData(World);
+  // FX::seekData(World);
 
-  FX::readDataBytes(World + (xSize * y) + x, arduboy.sBuffer, 128);
+  // FX::readDataBytes(World + (xSize * y) + x, arduboy.sBuffer, 128);
   FX::readDataBytes(World + (xSize * y) + x, arduboy.sBuffer, 128);
   FX::readDataBytes(World + (xSize * (y + 1)) + x, arduboy.sBuffer + (1 * 128), 128);
   FX::readDataBytes(World + (xSize * (y + 2)) + x, arduboy.sBuffer + (2 * 128), 128);
