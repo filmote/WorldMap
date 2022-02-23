@@ -1,0 +1,12 @@
+{
+  "additionalFiles": "",
+  "builtInLibrariesFolders": "/Applications/Programming/Arduino.app/Contents/Java/libraries",
+  "builtInToolsFolders": "/Applications/Programming/Arduino.app/Contents/Java/tools-builder,/Applications/Programming/Arduino.app/Contents/Java/hardware/tools/avr,/Users/simonholmes/Library/Arduino15/packages",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "build.path=/Users/simonholmes/projects/FX/fxdata,build.warn_data_percentage=75",
+  "fqbn": "arduboy-homemade:avr:arduboy:core=arduboy-core,boot=org",
+  "hardwareFolders": "/Applications/Programming/Arduino.app/Contents/Java/hardware,/Users/simonholmes/Library/Arduino15/packages",
+  "otherLibrariesFolders": "/Users/simonholmes/Documents/Arduino/libraries",
+  "runtime.ide.version": "10813",
+  "sketchLocation": "/Users/simonholmes/projects/FX/FX.ino"
+}
